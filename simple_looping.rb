@@ -39,6 +39,7 @@ def until_iterator(number_of_times)
   counter = 0 
   until counter == number_of_times do 
   puts phrase
+  counter+=1 
   end
 end
 
